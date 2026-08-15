@@ -26,8 +26,7 @@ const allowedOrigins = [
   ...(process.env.CLIENT_URL?.split(',') || []),
   'http://localhost:5174',
   'http://127.0.0.1:5173',
-  'https://beauty-salon-fullstack.vercel.app',
-  'https://beauty-salon-fullstack-236301038-9531s-projects.vercel.app',
+  'https://beauty-salon-fullstack-bahrain.vercel.app',
   'https://beautisalon.online',
   'https://www.beautisalon.online'
 ].map(origin => origin.trim())

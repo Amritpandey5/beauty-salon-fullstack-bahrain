@@ -123,7 +123,7 @@ export default function GalleryPage() {
             </svg>
           </div>
           <h3 className="font-display text-3xl text-ivory-100 mb-4">
-            Follow <em className="gold-text">@lumierekuwait</em>
+            Follow <em className="gold-text">@lumiereBahrain</em>
           </h3>
           <p className="font-body text-obsidian-400 mb-8 leading-relaxed">
             Stay inspired with daily transformations, behind-the-scenes moments, and exclusive offers on our Instagram.

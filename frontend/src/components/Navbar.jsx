@@ -43,7 +43,7 @@ export default function Navbar() {
         <nav className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <Link to="/" className="flex flex-col leading-none group">
             <span className="font-display text-2xl gold-text tracking-wide">Lumière</span>
-            <span className="font-arabic text-xs text-gold-400 tracking-widest opacity-80">لوميير — الكويت</span>
+            <span className="font-arabic text-xs text-gold-400 tracking-widest opacity-80">لوميير —البحرين</span>
           </Link>
 
           <ul className="hidden lg:flex items-center gap-10">

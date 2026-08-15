@@ -133,7 +133,7 @@ export default function ChangePasswordPage() {
 
         <div className="absolute bottom-16 left-12 max-w-xs">
           <p className="font-display text-5xl gold-text mb-3">Lumière</p>
-          <p className="font-arabic text-gold-400/70 text-base mb-6">لوميير — الكويت</p>
+          <p className="font-arabic text-gold-400/70 text-base mb-6">لوميير —البحرين</p>
           <p className="font-body text-ivory-500 text-sm leading-relaxed">
             Keep your account secure with a strong, unique password.
           </p>

@@ -16,7 +16,7 @@ const footerLinks = {
     { label: 'Hammam Ritual', to: '/services' },
   ],
   Connect: [
-    { label: 'Instagram', href: 'https://instagram.com/lumierekuwait' },
+    { label: 'Instagram', href: 'https://instagram.com/lumiereBahrain' },
     { label: 'Snapchat', href: '#' },
     { label: 'WhatsApp', href: 'https://wa.me/96512345678' },
     { label: 'TikTok', href: '#' },
@@ -31,10 +31,10 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link to="/" className="flex flex-col leading-none mb-6">
               <span className="font-display text-3xl gold-text tracking-wide">Lumière</span>
-              <span className="font-arabic text-sm text-gold-400/70 tracking-widest">لوميير — الكويت</span>
+              <span className="font-arabic text-sm text-gold-400/70 tracking-widest">لوميير —البحرين</span>
             </Link>
             <p className="font-body text-obsidian-400 text-sm leading-relaxed max-w-xs mb-6">
-              Kuwait's most distinguished beauty sanctuary. Where every visit is a journey into refined elegance and personal transformation.
+              Bahrain's most distinguished beauty sanctuary. Where every visit is a journey into refined elegance and personal transformation.
             </p>
             <Link to="/book" className="btn-primary text-xs py-2.5 px-5 inline-flex">
               Book Appointment
@@ -79,11 +79,11 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-obsidian-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-sans text-obsidian-600 text-xs tracking-wide">
-            © 2025 Lumière Salon, Kuwait. All rights reserved.
+            © 2025 Lumière Salon, Bahrain. All rights reserved.
           </p>
           <div className="flex items-center gap-2">
             <div className="w-8 h-px bg-gold-800" />
-            <p className="font-arabic text-gold-700 text-xs">صُنع بشغف في الكويت</p>
+            <p className="font-arabic text-gold-700 text-xs">صُنع بشغف في البحرين</p>
             <div className="w-8 h-px bg-gold-800" />
           </div>
           <div className="flex gap-6">

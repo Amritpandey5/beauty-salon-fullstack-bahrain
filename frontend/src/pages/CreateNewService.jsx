@@ -5,7 +5,7 @@ import { useToast } from '../components/Toast'
 import { FormField, FormSection, ToggleSwitch } from '../components/FormField'
 
 const CATEGORIES = ['Hair', 'Nails', 'Skin', 'Bridal', 'Wellness']
-const CURRENCIES = ['KWD', 'USD', 'EUR']
+const CURRENCIES = ['BD','KWD', 'USD', 'EUR']
 const ICONS = [
   { key: 'hair',   label: 'Hair',    emoji: '✂️' },
   { key: 'color',  label: 'Color',   emoji: '🎨' },
@@ -22,7 +22,7 @@ const INITIAL = {
   description:         '',
   price: {
     amount:   '',
-    currency: 'KWD',
+    currency: 'BD',
     isFrom:   false,
     display:  '',
   },
@@ -311,9 +311,9 @@ export default function CreateServicePage() {
                 <select
                   value={form.price.currency}
                   onChange={e => set('price.currency', e.target.value)}
-                  className="input-field appearance-none cursor-pointer"
+                  className="input-field appearance-none text-black  cursor-pointer"
                 >
-                  {CURRENCIES.map(c => <option key={c}>{c}</option>)}
+                  {CURRENCIES.map(c => <option className='text-black' key={c}>{c}</option>)}
                 </select>
               </FormField>
 

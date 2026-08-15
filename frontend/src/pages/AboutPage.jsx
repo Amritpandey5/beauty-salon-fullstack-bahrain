@@ -40,10 +40,10 @@ export default function AboutPage() {
             <div className="w-8 h-px bg-gold-gradient" />
           </div>
           <h1 className="section-title text-ivory-100 mb-6">
-            Born From a Passion<br />for <em className="gold-text">Kuwaiti Beauty</em>
+            Born From a Passion<br />for <em className="gold-text">Bahraini Beauty</em>
           </h1>
           <p className="font-body text-ivory-400 text-lg leading-relaxed max-w-2xl mx-auto">
-            Founded in 2012 in the heart of Kuwait City, Lumière began as a vision — to create a space where Arabian elegance meets European craftsmanship in perfect harmony.
+            Founded in 2012 in the heart of Bahrain City, Lumière began as a vision — to create a space where Arabian elegance meets European craftsmanship in perfect harmony.
           </p>
         </div>
       </section>
@@ -72,10 +72,10 @@ export default function AboutPage() {
                 Our Founder's <em className="text-gold-500">Vision</em>
               </h2>
               <p className="font-body text-obsidian-600 dark:text-ivory-400 text-lg leading-relaxed mb-6">
-                Nour Al-Ansari, our founder, trained at the prestigious L'Oréal Academie in Paris before returning to Kuwait to bring that world-class experience home to Kuwaiti women.
+                Nour Al-Ansari, our founder, trained at the prestigious L'Oréal Academie in Paris before returning to Bahrain to bring that world-class experience home to Bahraini women.
               </p>
               <p className="font-body text-obsidian-600 dark:text-ivory-400 leading-relaxed mb-8">
-                "I wanted every Kuwaiti woman to feel the luxury and artistry that I experienced in Paris — right here at home, surrounded by the warmth and culture of our beautiful country."
+                "I wanted every Bahraini woman to feel the luxury and artistry that I experienced in Paris — right here at home, surrounded by the warmth and culture of our beautiful country."
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-gold-gradient flex items-center justify-center">

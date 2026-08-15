@@ -64,7 +64,7 @@ export default function RegisterPage() {
         <div className="border border-gold-800/30 bg-obsidian-900/80 backdrop-blur-sm p-8 relative">
           <div className="absolute top-0 left-0 right-0 h-px bg-gold-gradient" />
           <h1 className="font-display text-3xl text-ivory-100 mb-2">Create Account</h1>
-          <p className="font-body text-obsidian-400 mb-8">Join Kuwait's premier beauty community</p>
+          <p className="font-body text-obsidian-400 mb-8">Join Bahrain's premier beauty community</p>
 
           <form onSubmit={handleSubmit} className="space-y-5">
             {fields.map(field => (

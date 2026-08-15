@@ -18,7 +18,7 @@ function HeroSection() {
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
         <div className="flex items-center justify-center gap-3 mb-8 animate-fade-in">
           <div className="w-12 h-px bg-gold-gradient" />
-          <p className="font-arabic text-gold-400 text-sm tracking-widest">الكويت · منذ ٢٠١٢</p>
+          <p className="font-arabic text-gold-400 text-sm tracking-widest">البحرين · منذ٢٠١٢</p>
           <div className="w-12 h-px bg-gold-gradient" />
         </div>
         <h1 className="font-display text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-ivory-50 leading-none tracking-tight mb-4 animate-fade-up" style={{ animationDelay: '0.2s' }}>
@@ -28,7 +28,7 @@ function HeroSection() {
           Where Beauty Meets Artistry
         </p>
         <p className="font-body text-base md:text-lg text-ivory-400 max-w-xl mx-auto leading-relaxed mb-12 animate-fade-up" style={{ animationDelay: '0.6s' }}>
-          Kuwait's most distinguished beauty sanctuary. Experience transformative treatments crafted with European precision and Arabian soul.
+          Bahrain's most distinguished beauty sanctuary. Experience transformative treatments crafted with European precision and Arabian soul.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: '0.8s' }}>
           <Link to="/book" className="btn-primary">
@@ -103,7 +103,7 @@ function ExperienceSection() {
           </div>
           <h2 className="section-title text-ivory-100 mb-6">Every Visit, a <br /><em className="gold-text">Masterpiece</em></h2>
           <p className="font-body text-ivory-400 text-lg leading-relaxed mb-8">
-            From the moment you step into our sanctuary, you are enveloped in a world of quiet opulence. Our specialists are trained in the world's finest techniques, tailored exclusively for the discerning women of Kuwait.
+            From the moment you step into our sanctuary, you are enveloped in a world of quiet opulence. Our specialists are trained in the world's finest techniques, tailored exclusively for the discerning women of Bahrain.
           </p>
           <div className="space-y-4 mb-10">
             {["Certified by L'Oréal Professionnel Paris", 'Exclusive Swiss skincare formulations', 'Private consultation for every client'].map(point => (

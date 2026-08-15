@@ -27,8 +27,7 @@ const allowedOrigins = [
   'http://localhost:5174',
   'http://127.0.0.1:5173',
   'https://beauty-salon-fullstack-bahrain.vercel.app',
-  'https://beautisalon.online',
-  'https://www.beautisalon.online'
+  'https://bahrain.v1.beautisalon.online',
 ].map(origin => origin.trim())
 app.use(cors({
   origin: (origin, cb) => {

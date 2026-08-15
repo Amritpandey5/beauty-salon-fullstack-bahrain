@@ -12,7 +12,7 @@ const sendEmail = async ({ to, subject, html }) => {
   try {
     // console.log("EMAIL TO:", to);
     const { data, error } = await resend.emails.send({
-      from: "Beauty Salon <noreply@bahrain.v1.beautisalon.online>", 
+      from: "Beauty Salon Bahrain <noreply@beautisalon.online>", 
       to,
       subject,
       html,
